@@ -1,7 +1,6 @@
 
 * {
     box-sizing: border-box;
-    margin: 13px;
 }
 
 body {
@@ -78,12 +77,6 @@ ul > li > a:hover{
 .bold{
     font-weight: bold;
 }
-
-/* .card-sec{
-    display: flex;
-    margin: 10px 36px;
-} */
-
 
 .cards-list {
     display: flex;
