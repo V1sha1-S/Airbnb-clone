@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-import data from './components/data'
+import data from './data'
 
 function App() {
   const cards = data.map(item => {
@@ -23,15 +23,7 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <Hero /> */}
-      <Card
-        img="./images/katie-zaferes.png"
-        star="./images/star.png"
-        rating="5.0"
-        reviewCount={6}
-        country="USA"
-        title="Life Lessons with Katie Zaferes"
-        price={136}
-      />
+      {cards}
     </div>
   );
 }
